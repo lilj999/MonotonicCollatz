@@ -11,5 +11,8 @@ The Function of Monotonic(n, K1, K2, K3) is to calculate monotonic increasing se
    5) The function compares three series with (K1,K2,K3), and draw them side by side in a window.
       
    Example:  
-      Monotonic(10,2) compares three series starting with (3 * 2^11-1, 4* 2^11-1, 5* 2^11-1).
-      Monotonic(199,3) compares three series starting with (4 * 2^200-1, 5* 2^200-1, 6* 2^200-1).
+      Monotonic(10,  3,4,5) compares three series starting with (3 * 2^11-1, 4* 2^11-1, 5* 2^11-1).
+      Monotonic(199, 4,5,6) compares three series starting with (4 * 2^200-1, 5* 2^200-1, 6* 2^200-1).
+      
+  The following figure shows the results for Monotonic(7, 1,2,3)    
+ ![image](https://github.com/lilj999/MonotonicCollatz/blob/master/sim_incr.jpg)
