@@ -5,7 +5,7 @@ The Function of Monotonic(n, K1, K2, K3) is to calculate monotonic increasing se
    Explainations:         
    1) All number like "K * 2^(n+1)-1" can generate a monotonic increasing series of length n;
    2) Given K, the serie starting with  K*2^(n+1)-1 ending with 4 * K * 3^(n-1) -1;
-   3) Monotonic(n,0) is the minimal x_1 that satisfies the monotonic constraints with the step size 1;
+   3) K=0 is corresponding to the minimal x_1 that satisfies the monotonic constraints with the step size 1;
    4) The function compares three series with (K1,K2,K3), and draw them side by side in a window.
       
    Example:  
