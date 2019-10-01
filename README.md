@@ -1,5 +1,5 @@
 # MonotonicCollatz
-Code  is used to generate a monotonic increasing Collatz series of any limited length $n$ with the same step size 1.
+Code  is used to generate a monotonic increasing Collatz series of any length $n$ with the same step size 1.
 
 The further information please refers to the paper:
   https://arxiv.org/abs/1909.13218
