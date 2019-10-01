@@ -1,5 +1,7 @@
 # MonotonicCollatz
-Code  is used to generate a monotonic increasing Collatz series of any length $n$ with the same step size 1.
+Code is used to generate a monotonic increasing Collatz series of any length $n$ with the same step size 1. 
+
+Background: The Collatz series is relevant to the well-known Collatz conjecture (or 3x+1 problem)  in mathematics that concerns a series for any positive integer n. If it's even, divide it by two, and if it's odd, multiply it by three and add one.  The Collatz conjecture asserts that this series always falls into 4->2->1 cycles. Although the Collatz conjecture  has been explored for more than 80 years, but it still defied any formal proof.
 
 The further information please refers to the paper:
   https://arxiv.org/abs/1909.13218
