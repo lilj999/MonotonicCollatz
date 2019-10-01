@@ -7,7 +7,7 @@ The further information please refers to the paper:
 The Function of Monotonic(n, K1, K2, K3) is to calculate monotonic increasing series of any limited length $n$ with the same step size 1.
    Explainations:         
    1) All number like "K * 2^(n+1)-1" can generate a monotonic increasing series of length n;
-   2) Given K, the serie starting with  K*2^(n+1)-1 ending with 4 * K * 3^(n-1) -1;
+   2) Given K, the series starting with  K*2^(n+1)-1 ending with 6 * K * 3^(n-1) -1;
    3) K=0 is corresponding to the minimal x_1 that satisfies the monotonic constraints with the step size 1;
    4) The function compares three series with (K1,K2,K3), and draw them side by side in a window.
       
