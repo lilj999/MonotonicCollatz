@@ -1,6 +1,9 @@
 # MonotonicCollatz
 Code  is used to generate a monotonic increasing Collatz series of any limited length $n$ with the same step size 1.
 
+The further information please refers to the paper:
+  https://arxiv.org/abs/1909.13218
+
 The Function of Monotonic(n, K1, K2, K3) is to calculate monotonic increasing series of any limited length $n$ with the same step size 1.
    Explainations:         
    1) All number like "K * 2^(n+1)-1" can generate a monotonic increasing series of length n;
@@ -13,4 +16,7 @@ The Function of Monotonic(n, K1, K2, K3) is to calculate monotonic increasing se
       Monotonic(199, 4,5,6) compares three series starting with (4 * 2^200-1, 5* 2^200-1, 6* 2^200-1).
       
   The following figure shows the results for Monotonic(7, 1,2,3)    
+  
+
+  
  ![image](https://github.com/lilj999/MonotonicCollatz/blob/master/sim_incr.jpg)
