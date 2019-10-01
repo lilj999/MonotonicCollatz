@@ -79,7 +79,7 @@ def Monotonic(n, K1=1, K2=2, K3=3):
     plt.plot(x,re2[:minx],color='black',linewidth=1,linestyle='--',label=label2)
     plt.plot(x,re3[:minx],color='black',linestyle='dotted',label=label3)
     plt.legend()
-    plt.xlabel('Step of operations')
+    plt.xlabel('Step of Collatz operations')
     plt.ylabel('The Collatz orbits')
     plt.show()
 
