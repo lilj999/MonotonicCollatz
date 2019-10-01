@@ -19,4 +19,4 @@ The Function of Monotonic(n, K1, K2, K3) is to calculate monotonic increasing se
   
 
   
- ![image](https://github.com/lilj999/MonotonicCollatz/blob/master/sim_incr.jpg)
+ ![image](https://github.com/lilj999/MonotonicCollatz/blob/master/sim_incr7.jpg)
