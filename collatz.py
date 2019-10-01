@@ -53,7 +53,7 @@ def S(n, record=False):
 #      Monotonic(199,4,5,6) compares three series starting with (4 * 2^200-1, 5* 2^200-1, 6* 2^200-1).
 #             
 ############
-def Monotonic(n, K1=0, K2=1, K3=2):
+def Monotonic(n, K1=1, K2=2, K3=3):
     x1=K1 * pow(2,n+1)-1
     y1=4*K1*pow(3,n-1)-1
     flag,cn,re1,c2,c3,mn, mnb=S(x1,True)
